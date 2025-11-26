@@ -1,0 +1,36 @@
+# Flutter/Dart build artifacts
+**/build/
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.packages
+**/.pub-cache/
+**/.pub/
+**/pubspec.lock
+
+# Android build artifacts
+**/.gradle/
+**/local.properties
+**/*.apk
+**/*.aab
+**/*.keystore
+**/*.jks
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS generated
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+
+# Duplicate/build folders
+BettaFish-Android/
+

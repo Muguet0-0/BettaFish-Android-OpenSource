@@ -1,0 +1,58 @@
+name: bettafish
+description: 微舆 - 致力于打造简洁通用的舆情分析平台
+
+publish_to: 'none'
+
+version: 1.2.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # 状态管理
+  provider: ^6.1.1
+  
+  # 网络请求
+  http: ^1.1.0
+  dio: ^5.4.0
+  
+  # WebSocket (Socket.IO)
+  socket_io_client: ^2.0.3+1
+  
+  # 本地存储
+  shared_preferences: ^2.2.2
+  
+  # UI组件
+  cupertino_icons: ^1.0.6
+  flutter_markdown: ^0.6.18+2
+  
+  # 文件选择
+  file_picker: ^8.0.0
+  
+  # WebView (用于嵌入Streamlit页面)
+  webview_flutter: ^4.4.4
+  
+  # 工具类
+  intl: ^0.18.1
+  url_launcher: ^6.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+
+  # assets:
+  #   - assets/
+
+  # fonts:
+  #   - family: NotoSansSC
+  #     fonts:
+  #       - asset: assets/fonts/NotoSansSC-Regular.ttf
+  #       - asset: assets/fonts/NotoSansSC-Bold.ttf
+  #         weight: 700

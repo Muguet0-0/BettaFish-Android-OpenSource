@@ -1,0 +1,46 @@
+# Flutter/Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Android
+android/.gradle/
+android/app/build/
+android/local.properties
+android/key.properties
+android/*.keystore
+android/*.jks
+android/app/google-services.json
+
+# iOS (if applicable)
+ios/.symlinks/
+ios/Pods/
+ios/*.xcworkspace
+ios/.generated/
+
+# Dependencies
+pubspec.lock
+
+# Coverage
+coverage/
+.test_coverage.dart
+
+# Logs
+*.log
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# IDE
+*.swp
+*.swo
+.vscode/
